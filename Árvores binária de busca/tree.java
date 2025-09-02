@@ -23,7 +23,7 @@ class Tree {
             else{
                 if(info > atual.info){ //Caso 3: se maior, chamo novamente a função para o nó da direita
                     atual.dir = InserirRec(atual.dir, info);
-                
+                    
             }
         }
 
